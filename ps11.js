@@ -22,4 +22,4 @@ while(x<=200){
     x=x+1;
 }
 
-document.write(sum)
+// document.write(sum)
