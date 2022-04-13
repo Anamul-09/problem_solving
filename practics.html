@@ -9,22 +9,37 @@
 </head>
 <body>
 
-<div>
-    <h3>Programming Langague</h3>
-   <label for="programme">
-    <input type="checkbox" name="programme" value="c" id="programme">C
-   </label>
+<form action="">
 
-   <label for="programme">
-    <input type="checkbox" name="programme" value="java" id="programme">Java
-   </label>
+    <div class="login-form">
 
-   <label for="programme">
-    <input type="checkbox" name="programme" value="php" id="programme">PHP
-   </label>
+        <label for="name">Name :
+            <input type="text" name="name" id="name" value="" required autofocus>
+        </label>
+    </div>
 
-</div>
+    
+    <div class="login-form">
+
+        <label for="email">Email :
+            <input type="email" name="email" id="email" value="" required autofocus>
+        </label>
+    </div>
+
+    
+    <div class="login-form">
+
+        <label for="password">Password :
+            <input type="password" name="password" id="password" value="" required autofocus minlength="7" maxlength="10">
+        </label>
+    </div>
+
+    <div>
+        <input type="submit" name="" id="submit" value="sing up" >
+    </div>
+
+</form>
    
- <script src="ps25.js"></script>
+ <script src="ps26.js"></script>
 </body>
 </html>
