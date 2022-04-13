@@ -15,19 +15,19 @@
        
        function audioPlay(text){
            switch (text) {
-               case text:
+               case "button1":
                    var audio=new Audio("music/1.mp3");
                    audio.play();
                  
                    break;
      
-               case text:
+               case "button2":
                    var audio2=new Audio("music/2.mp3");
                    audio2.play();
                  
                    break;
      
-               case text:
+               case "button3":
                var audio3=new Audio("music/3.mp3");
                    audio3.play();
                  
@@ -37,7 +37,7 @@
 
 
 function playAnimation(text){
-    var myVar =document.querySelector(".mybtn");
+    var myVar =document.querySelectorAll(".mybtn");
     myVar.classList.add("anim")
 
  }
