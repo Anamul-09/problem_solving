@@ -1,9 +1,9 @@
-/* *{
+/* {
     background-color: black;
 
-}
+} */
 
-.clock-div{
+div{
     position: absolute;
     top: 50%;
     left: 40%;
@@ -15,7 +15,7 @@
 }
 
 
-.myClock{
+/* .myClock{
     font-family: sans-serif;
     color: #fff;
     font-size: 50px;
@@ -26,4 +26,4 @@
                   0 0 120px #00b3ff;
     
 
-} */
+}  */
