@@ -25,13 +25,13 @@ var students =[
     }
 ]
 
-// console.log(students[0].name)
+
 
  const [name1,name2,...name3]=students;
 // // const {id,name,cgpa}=name1;
 // // console.log(name)
 // // console.log(name1)
- console.log(name3[0].name)
+ console.log(name3[1].cgpa)
 
 
 
